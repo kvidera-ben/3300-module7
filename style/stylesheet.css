@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Prata", serif;
+}
+
+p {
+    font-family: "Red Hat Text", sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: "Prata", serif;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+body {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 2px;
+}
+
+header {
+    background-color: lightblue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+#container {
+    width: 80%;
+    margin:0 auto;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.info {
+    background-color: lightblue;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+    font-family: "Red Hat Text", sans-serif;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+/* makes the button bigger when clicked - commenting out
+a:active {
+    font-size: 5rem;
+}
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: lightgray;
+  }
